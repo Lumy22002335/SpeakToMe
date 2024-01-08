@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6347ecfced6afd4e94a14f87a07f29b, type: 3}
+  m_Name: DeathAgeAnswers
+  m_EditorClassIdentifier: 
+  question: How old are you
+  Type: 0
+  answers:
+    list:
+    - Key: 2
+      Value:
+      - Lifetime left behind
+    - Key: 1
+      Value:
+      - Life cut short
+    - Key: 0
+      Value:
+      - Where is my mommy?
+  answersSounds:
+    list:
+    - Key: 0
+      Value:
+      - {fileID: 8300000, guid: 430fb7f8fc9d703498101ebe73373c10, type: 3}
+    - Key: 1
+      Value:
+      - {fileID: 8300000, guid: 55aa99db6930ee14e88c6a7cdde86302, type: 3}
+    - Key: 2
+      Value:
+      - {fileID: 8300000, guid: c3ea4eecbe449634487b6bc3e884deee, type: 3}

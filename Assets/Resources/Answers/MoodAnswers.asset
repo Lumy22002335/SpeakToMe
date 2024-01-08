@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5692d36e49ccac84a8493a11a99868a6, type: 3}
+  m_Name: MoodAnswers
+  m_EditorClassIdentifier: 
+  question: How are you
+  Type: 0
+  answers:
+    list:
+    - Key: 3
+      Value:
+      - WHERE IS HE
+      - WHERE IS SHE
+    - Key: 0
+      Value:
+      - Peaceful
+    - Key: 2
+      Value:
+      - '*crying sounds*'
+    - Key: 1
+      Value:
+      - Confused
+  answersSounds:
+    list:
+    - Key: 0
+      Value:
+      - {fileID: 8300000, guid: 9e8dbec88e7aa004f9b9d883b14d47b9, type: 3}
+    - Key: 1
+      Value:
+      - {fileID: 8300000, guid: 1ef1fe0acb3731c48bc6c4c58d23ce8e, type: 3}
+    - Key: 2
+      Value:
+      - {fileID: 8300000, guid: 33a897610788c6349bf72e2baa771c66, type: 3}
+    - Key: 3
+      Value:
+      - {fileID: 8300000, guid: 50841aee47c0b5e49b0c1308f8c25228, type: 3}
+      - {fileID: 8300000, guid: 2d81993e32a6f1846886146a6a821bca, type: 3}

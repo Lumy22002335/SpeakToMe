@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bd828b918bd22246880a28ac6b8580f, type: 3}
+  m_Name: DeathPlaceAnswers
+  m_EditorClassIdentifier: 
+  question: What do you see
+  Type: 0
+  answers:
+    list:
+    - Key: 2
+      Value:
+      - Fish
+      - '*Still water sounds*'
+    - Key: 1
+      Value:
+      - Light
+      - '*Waves against rocks sounds*'
+    - Key: 3
+      Value:
+      - Dark
+      - '*Leaves in wind sounds*'
+    - Key: 0
+      Value:
+      - Flowers
+      - '*Windchime sounds*'
+  answersSounds:
+    list:
+    - Key: 0
+      Value:
+      - {fileID: 8300000, guid: d64fc33899c02324491c8425761ae429, type: 3}
+    - Key: 1
+      Value:
+      - {fileID: 8300000, guid: 9307c03eabc1dee4c80ec9e57f8c7bed, type: 3}
+    - Key: 2
+      Value:
+      - {fileID: 8300000, guid: dbc034b0fa7d0ec4d8774e569a319392, type: 3}
+    - Key: 3
+      Value:
+      - {fileID: 8300000, guid: 7b06015feacb7ca4eae903e992d46a3c, type: 3}
